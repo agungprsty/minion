@@ -14,9 +14,13 @@ Hai semuanya &#128075;, kali ini aku mau berbagi info bagaimana sih caranya `Dua
 Untuk menggunakan Ubuntu kamu tidak perlu menghapus sistem operasi Windows yang sudah ada di komputer atau laptopmu. Dengan teknik ‘dual boot’, kamu bisa menyimpan Windows dan Ubuntu secara bersama di dalam satu Harddisk. Nantinya kamu hanya perlu memilih sistem operasi apa yang ingin digunakan setiap kali melakukan boot. Bulan April 2020 lalu Ubuntu merilis versi LTS terbaru dengan nama kode ``'Focal Fossa'``, yaitu **Ubuntu 20.04**. Sesuai labelnya yakni `LTS (Long Term Support)`, versi ini akan mendapat dukungan pembaruan, perbaikan, dan keamanan hingga 5 tahun. Untuk kamu yang baru ingin menggunakan Linux khususnya distro Ubuntu, versi ini merupakan pilihan yang tepat.
 
 Namun, sebelum instal pastikan komputermu memenuhi persyaratan sistem minimum dari Ubuntu. Berikut adalah persyaratannya:
+
 1. 2 GHz Dual Core Processor (64-bit)
+   
 2. 4 GB RAM
+   
 3. 25 GB ruang penyimpanan Harddisk
+   
 4. Resolusi layar 1024x768
 
 Perlu diketahui juga bahwa panduan ini dikhususkan untuk komputer yang sudah mendukung arsitektur 64-bit namun masih menggunakan BIOS Legacy dan skema partisi Harddisk MBR (Master Boot Record). Untuk mengetahui apakah komputermu masih menggunakan BIOS Legacy dan skema partisi MBR, silakan baca pos ini dan pos ini.
@@ -25,10 +29,15 @@ Perlu diketahui juga bahwa panduan ini dikhususkan untuk komputer yang sudah men
 > _Jika komputermu hanya mendukung arsitektur 32-bit, kamu bisa mengikuti panduan dual boot LMDE atau Debian yang masih mendukung arsitektur tersebut._
 
 Setelah semua persyaratan di atas terpenuhi, kamu perlu menyiapkan perangkat dan mengunduh beberapa berkas serta aplikasi yang nantinya akan digunakan, yaitu:
+
 1. Akses internet (opsional, namun direkomendasikan)
+   
 2. [Berkas ISO Ubuntu 20.04 LTS](https://www.ubuntu.com/download/desktop)
+
 3. [EasyBCD](https://neosmart.net/EasyBCD/)
+   
 4. [Rufus](https://rufus.ie)
+   
 5. USB Flashdisk dengan kapasitas minimum 8 GB
 
 Setelah semua yang dibutuhkan siap, sekarang waktunya menginstal Ubuntu. Omong-omong, cara yang saya gunakan ini akan memisahkan partisi antara Windows dan Ubuntu secara manual. Dengan begitu, data-data di dalam partisi Windows akan tetap aman dan proses hapus akan jadi lebih mudah jika nantinya kamu ingin menghapus Ubuntu.
