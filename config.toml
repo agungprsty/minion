@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://jolly-kirch-a4a2bb.netlify.app/"
 languageCode = "en-us"
 title = "Harian Farghani"
 theme = "Personal"
@@ -83,7 +83,7 @@ btnURL  = "/contact"
 # Portfolio Section On Homepage
 [params.portfolio]
 enable  = true
-title   = "Harian Farghani Terbaru"
+title   = "Harian Terbaru"
 subtitle= "Disini temen-temen bisa lihat galeri seputar pekerjaan, rekomendasi buku, atau juga experimen saya."
 
 # social icon
