@@ -5,7 +5,7 @@ description : "Disini kamu bisa tau Latihan Untuk Diam"
 type: post
 image: images/blog/post-1.jpg
 author: Hilman Ramadhan
-tags: ["motivation"]
+tags: ["Motivation"]
 moods: ["Senang", "Haru"]
 ---
 
@@ -29,8 +29,7 @@ untuk mulai melatih diam
 
 `Selesai`.
 
-Demikian Blog tentang Kamu tidak suka pekerjaan atau prosesnya?. Jangan ragu untuk berkomentar jika mengalami kesulitan.
-
+Demikian Blog tentang Latihan untuk diam. Jangan ragu untuk berkomentar jika mengalami kesulitan.
 Sekian dan semoga bermanfaat.
 
-*Sumber: [Disini](https://hilman.space/diam/)*
+*Sumber: [Disini](https://hilman.space/diam/)*.

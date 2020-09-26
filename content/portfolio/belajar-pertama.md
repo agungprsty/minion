@@ -5,8 +5,8 @@ date: 2019-11-20T16:53:54+06:00
 description : "Disini kamu dapat membaca pengalamanku saat belajar HTML pertama kali"
 caption: Kenalan Dengan HTML 
 image: images/portfolio/porto1.jpg
-category: ["typography","letters"]
-liveLink: https://www.themefisher.com
+category: ["Explore","Programming"]
+liveLink: ""
 client: Agung Prasetyo
 submitDate: November 20, 2019
 location: 14470 Penjaringan, Jakarta Utara, DKI Jakarta

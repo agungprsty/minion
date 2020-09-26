@@ -2,11 +2,11 @@
 title: "Node.JS & NPM Pemula"
 type: portfolio
 date: 2020-07-30T16:59:54+06:00
-description : "This is meta description"
+description : "Disini kamu bisa tau bagaimana Berkenalan dengan Node JS & NPM"
 caption: Berkenalan dengan Node JS & NPM
 image: images/portfolio/porto5.jpg
-category: ["product","mockup","design"]
-liveLink: https://www.themefisher.com
+category: ["Programming","Tutorial"]
+liveLink: ""
 client: Agung Prasetyo
 submitDate: Juli 30, 2020
 location: 14470 Penjaringan, Jakarta Utara, DKI Jakarta

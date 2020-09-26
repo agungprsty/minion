@@ -9,10 +9,10 @@
                     <h2>{{ .Title }}</h2>
                     <div class="portfolio-meta">
                         <span>{{ .Date.Format "2006-01-02" }}</span>|
-                        <span> Category: {{ delimit .Params.category ", " }}</span>|
+                        <span> Category: {{ delimit .Params.category ", " }}</span> <!-- |
                         <span> website:
                             <a href="{{ .Params.liveLink }}">{{ .Params.liveLink }}</a>
-                        </span>
+                        </span> -->
                     </div>
                 </div>
             </div>
@@ -24,7 +24,7 @@
 <section class="work-single">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 blog-content">
                 {{ with .Params.image }}
                 <div class="work-single-image">
                     <!-- Work Single Image -->
@@ -34,9 +34,20 @@
                 <!-- work single Content -->
                 {{ with .Content }}
                 <div class="work-single-content">
+                    <!-- <span class="ion-ios-moon" onclick="setDarkMode(false)"></span>
+                    <span class="ion-ios-sunny" onclick="setDarkMode(true)"></span> -->
+                    <div style="margin: 0 0 30px 10px;">
+                        <input type="checkbox" class="checkbox" id="checkbox" />
+                        <label class="label" for="checkbox">
+                            <i class="ion-ios-moon"></i>
+                            <i class="ion-ios-sunny"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
                     {{ . }}
                 </div>
                 {{ end }}
+                {{ with .Permalink }}<a href="/portfolio/" class="btn btn-dafault btn-details hvr-bounce-to-right" style="margin-bottom:15px"> Kembali </a>{{ end }}
             </div>
             <div class="col-lg-4">
                 <!-- sidebar -->
@@ -50,7 +61,8 @@
                     <h6>{{ . }}</h6>
                     {{ end }}
                     <h5>Kategori</h5>
-                    <h6>Investment, Business</h6>
+                    <h6>{{ if ne .Params.category nil }} {{ delimit .Params.category ", " }}</h6>
+                    {{ end }}
                     {{ with .Params.location }}
                     <h5>Lokasi</h5>
                     <h6>{{ . }}</h6>

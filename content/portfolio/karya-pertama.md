@@ -5,8 +5,8 @@ date: 2019-12-15T16:54:54+06:00
 description : "Disini kalian bisa melihat karya pertama saya"
 caption: Tampilan Login 
 image: images/portfolio/porto2.jpg
-category: ["mockup","design"]
-liveLink: https://www.themefisher.com
+category: ["Explore","Programming"]
+liveLink: ""
 client: Agung Prasetyo
 submitDate: Desember 15, 2019
 location: 14470 Penjaringan, Jakarta Utara, DKI Jakarta

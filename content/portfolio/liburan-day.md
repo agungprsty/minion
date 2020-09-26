@@ -2,11 +2,11 @@
 title: "Hari Liburan"
 type: portfolio
 date: 2020-01-12T16:56:54+06:00
-description : "This is meta description"
+description : "Disini kamu bisa tau bagaimana rasanya Pulang Kampung Perdana"
 caption: Pulang Kampung Perdana
 image: images/portfolio/porto3.jpg
-category: ["3d-model","product"]
-liveLink: https://www.themefisher.com
+category: ["Pulang","Kampung"]
+liveLink: ""
 client: Agung Prasetyo
 submitDate: Januari 12, 2020
 location: 12230 Pantai Klara, Pesawaran, Lampung

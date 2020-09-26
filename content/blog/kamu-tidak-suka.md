@@ -5,7 +5,7 @@ description : "Disini kamu bisa tau Kamu tidak suka pekerjaan atau prosesnya?"
 type: post
 image: images/blog/post_proses.jpg
 author: Hilman Ramadhan
-tags: ["motivation"]
+tags: ["Motivation"]
 moods: ["Senang", "Haru"]
 ---
 
@@ -38,8 +38,7 @@ Setiap pekerjaan kita ada yang **menikmati**. *Tapi jangan lupa, kamu sendiri ka
 
 `Selesai`.
 
-Demikian Blog tentang Kamu tidak suka pekerjaan atau prosesnya?. Jangan ragu untuk berkomentar jika mengalami kesulitan.
-
+Demikian Blog tentang kamu tidak suka pekerjaan atau prosesnya. Jangan ragu untuk berkomentar jika mengalami kesulitan.
 Sekian dan semoga bermanfaat.
 
 *Sumber: [Disini](https://hilman.space/lambat/)*.

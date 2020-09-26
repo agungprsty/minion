@@ -6,7 +6,7 @@ license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
 description = ""
 homepage = "http://example.com/"
-tags = []
+tags = ["programming","pengalaman","tutorial", "pulang", "kampung", "pekerjaan", "buku", "literasi"]
 features = ['bootstrap','responsive','fast']
 min_version = "0.61.0"
 

@@ -2,10 +2,10 @@
 title: "Tapak Jejak"
 type: portfolio
 date: 2020-04-12T16:58:55+06:00
-description : "This is meta description"
+description : "Disini kamu bisa tau buku rekomendasi dari saya"
 caption: Rekomended untuk kalian
 image: images/portfolio/porto6.jpg
-category: ["bag","mockup"]
+category: ["Buku","Literasi"]
 liveLink: https://www.themefisher.com
 client: Agung Prasetyo
 submitDate: April 12, 2020

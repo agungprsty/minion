@@ -6,10 +6,8 @@ summaryLength = 40
 paginate = 3
 [taxonomies]
     tag = "tags"
-    category = "categories"
+    category = "category"
     mood = "moods"
-
-# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
 # Navbar Menus
 [[menu.main]]

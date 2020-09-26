@@ -153,6 +153,6 @@ Untuk benar-benar memastikan berhasil atau tidaknya silakan **restart** komputer
 `Selesai`.
 
 Demikian Blog tentang Cara Dual Boot Ubuntu dan Windows 10. Jangan ragu untuk berkomentar jika mengalami kesulitan.
-
 Sekian dan semoga bermanfaat.
+
 *sumber:[disini](https://mochamadboval.com/cara-dual-boot-ubuntu-dan-windows/).*

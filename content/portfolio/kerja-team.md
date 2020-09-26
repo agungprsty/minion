@@ -2,11 +2,11 @@
 title: "Teamwork Power"
 type: portfolio
 date: 2020-02-06T16:57:54+06:00
-description : "This is meta description"
+description : "Disini kamu bisa tau Forta Squad"
 caption: Forta Squad
 image: images/portfolio/porto4.jpg
-category: ["fashion","package"]
-liveLink: https://www.themefisher.com
+category: ["Squad","Karir"]
+liveLink: ""
 client: Agung Prasetyo
 submitDate: Februari 06, 2020
 location: 15211 PT. Hokita, Dadap, Tanggerang

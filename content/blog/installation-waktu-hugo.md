@@ -90,5 +90,4 @@ Folder **publik** akan dibuat, berisi semua konten dan aset statis untuk situs w
 `Selesai`.
 
 Demikian Blog tentang Cara Mengatur Waktu Hugo. Jangan ragu untuk berkomentar jika mengalami kesulitan.
-
 Sekian dan semoga bermanfaat.
