@@ -21,7 +21,7 @@ Namun, sebelum instal pastikan komputermu memenuhi persyaratan sistem minimum da
 
 Perlu diketahui juga bahwa panduan ini dikhususkan untuk komputer yang sudah mendukung arsitektur 64-bit namun masih menggunakan BIOS Legacy dan skema partisi Harddisk MBR (Master Boot Record). Untuk mengetahui apakah komputermu masih menggunakan BIOS Legacy dan skema partisi MBR, silakan baca pos ini dan pos ini.
 
-###### info:
+### info:
 > _Jika komputermu hanya mendukung arsitektur 32-bit, kamu bisa mengikuti panduan dual boot LMDE atau Debian yang masih mendukung arsitektur tersebut._
 
 Setelah semua persyaratan di atas terpenuhi, kamu perlu menyiapkan perangkat dan mengunduh beberapa berkas serta aplikasi yang nantinya akan digunakan, yaitu:
@@ -33,12 +33,12 @@ Setelah semua persyaratan di atas terpenuhi, kamu perlu menyiapkan perangkat dan
 
 Setelah semua yang dibutuhkan siap, sekarang waktunya menginstal Ubuntu. Omong-omong, cara yang saya gunakan ini akan memisahkan partisi antara Windows dan Ubuntu secara manual. Dengan begitu, data-data di dalam partisi Windows akan tetap aman dan proses hapus akan jadi lebih mudah jika nantinya kamu ingin menghapus Ubuntu.
 
-###### perhatian:
+### perhatian:
 > _Ikuti panduan ini dengan santai namun tetap teliti, karena kesalahan kecil dapat membuat data-data pribadimu hilang. Jika kamu memiliki media penyimpanan eksternal lain, ada baiknya untuk mencadangkan (backup) data-data pentingmu terlebih dahulu._
 
 Berikut adalah tahapannya:
 
-##### Tahap 1 - Membuat Partisi Kosong
+#### Tahap 1 : Membuat Partisi Kosong
 Ketik `diskmgmt.msc` pada pencarian Windows untuk membuka `Disk Management`. Pada `partisi (D:)` klik kanan lalu pilih `Shrink Volume`.
 
 [![image](https://mochamadboval.com/images/003/01-shrink-volume.png "Shrink volume")](https://mochamadboval.com/images/003/01-shrink-volume.png)
@@ -49,7 +49,7 @@ Masukan kapasitas yang diinginkan untuk partisi baru tersebut lalu klik Shrink. 
 
 Setelah selesai akan tampil sebuah partisi kosong (unallocated) sesuai kapasitas yang kamu masukan. Biarkan saja karena kita akan mengaturnya nanti.
 
-##### Tahap 2 - Membuat Media Instal di Flashdisk
+#### Tahap 2 : Membuat Media Instal di Flashdisk
 Colok Flashdisk ke komputer lalu buka aplikasi `Rufus`. Setelah terbuka klik `Select` lalu pilih berkas `ISO Ubuntu` yang telah diunduh.
 
 Biarkan semua pengaturan dalam keadaan *default*. Langsung saja klik `Start` untuk mulai proses.
@@ -60,14 +60,14 @@ Setelah proses selesai kamu akan melihat Flashdisk berisi berkas-berkas dari ISO
 
 [![image](https://mochamadboval.com/images/003/04-berhasil-membuat-bootable-ubuntu.png "Berhasil membuat bootable ubuntu")](https://mochamadboval.com/images/003/04-berhasil-membuat-bootable-ubuntu.png)
 
-##### Tahap 3 - Masuk ke Ubuntu Live USB
+#### Tahap 3 : Masuk ke Ubuntu Live USB
 Setiap komputer memiliki cara yang berbeda untuk melakukan boot dari *Flashdisk*. Ada yang mengatur urutannya terlebih dahulu di BIOS dan ada juga yang memiliki menu khusus untuk memilih boot. Di laptop HP saya, saya menekan tombol **Esc** lalu menekan **F9** untuk membuka `Boot Device Options`. Setelah itu saya memilih opsi boot dari `Flashdisk`.
 
 [![image](https://mochamadboval.com/images/003/05-memilih-boot-ke-ubuntu.jpg "Memilih bootable ke ubuntu")](https://mochamadboval.com/images/003/05-memilih-boot-ke-ubuntu.jpg)
 
 Setelah berhasil boot dari `Flashdisk`, akan tampil *wizard* dengan opsi **‘Try Ubuntu’** dan **‘Install Ubuntu’**. Karena partisi kosong yang tadi dibuat belum diatur, maka di sini kita akan pilih opsi **Try Ubuntu**.
 
-##### Tahap 4 - Mengatur Partisi
+#### Tahap 4 : Mengatur Partisi
 Sampai di tahap ini kamu sudah bisa menggunakan Ubuntu secara Live. Ada baiknya kamu memeriksa apakah semua perangkat (seperti monitor, keyboard, mouse, WiFi, Bluetooth, port USB, dsb) berfungsi sebagaimana mestinya. Jika kamu merasa semua perangkat sudah berfungsi dengan baik, silakan klik ikon `Menu` di kiri bawah lalu buka aplikasi `GParted` untuk mulai mengatur partisi.
 
 Pilih partisi `‘Unallocated’` lalu klik ikon `Create New Partition` di kiri atas (atau bisa juga dengan klik kanan pada partisi lalu pilih `New`).
@@ -94,7 +94,7 @@ Inilah tampilan setelah kamu mengatur partisi. Klik ikon **Apply** (ceklis) untu
 
 Inilah tampilan setelah kamu menyimpan pengaturan partisi. Perhatikan tulisan **/dev/sda** (terutama **sda6**) yang ada di dalam partisi `‘Extended’` karena akan penting nantinya.
 
-##### Tahap 5 - Instal Ubuntu
+#### Tahap 5 : Instal Ubuntu
 Sebelum instal saya menyarankan untuk terhubung dengan internet terlebih dahulu agar proses instal ikut mengunduh pembaruan. Setelah terhubung internet, klik `Install Ubuntu 20.04 LTS`.
 
 Pilih bahasa yang ingin digunakan saat proses instal lalu klik `Continue`.
@@ -135,7 +135,7 @@ Sekarang kamu hanya perlu menunggu proses instalasi selesai. Lama proses instal 
 
 [![image](https://mochamadboval.com/images/003/22-menunggu-instalasi-selesai.png "menunggu instalasi selesai")](https://mochamadboval.com/images/003/22-menunggu-instalasi-selesai.png)
 
-##### Tahap 6 - Menambahkan Boot Ubuntu
+#### Tahap 6 : Menambahkan Boot Ubuntu
 Saat restart kamu akan langsung masuk ke Windows tanpa ada opsi untuk memilih sistem operasi yang ingin digunakan. Tenang saja karena sebenarnya Ubuntu telah terinstal dan kamu hanya perlu menambahkan boot-nya. Silakan buka aplikasi **EasyBCD** untuk menambahkan boot Ubuntu.
 
 Klik **Add New Entry** dan pada bagian *‘Operating Systems’* pilih **Linux/BSD**. Ubah bagian *‘Type’* menjadi **GRUB 2**, beri nama `‘Ubuntu 20.04’`, dan ubah bagian *‘Drive’* menjadi **Partition 5 (Linux - 1GiB)** lalu klik ikon **(+)** sekali saja.
