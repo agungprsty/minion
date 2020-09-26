@@ -1,0 +1,8 @@
+enable  : true
+galleryImages :
+  - image : images/portfolio/porto1.jpg
+  - image : images/portfolio/porto2.jpg
+  - image : images/portfolio/porto3.jpg
+  - image : images/portfolio/porto4.jpg
+  - image : images/portfolio/porto5.jpg
+  - image : images/portfolio/porto6.jpg

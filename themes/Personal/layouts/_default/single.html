@@ -1,0 +1,63 @@
+{{ define "main" }}
+
+<section class="global-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>{{ .Title }}</h2>
+                    <div class="portfolio-meta">
+                        <span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>|
+                        <span> Tags:
+                            {{ if ne .Params.tags nil }}{{ delimit .Params.tags ", " }}{{ end }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="single-post">
+    <div class="container blog-content">
+        <div class="row">
+            <div class="col-md-12">
+                {{ with .Params.image }}
+                <div class="post-img">
+                    <img class="img-fluid" alt="" src="{{ . | absURL }}">
+                </div>
+                {{ end }}
+                <div class="post-content">
+                    <!-- <span class="ion-ios-moon" onclick="setDarkMode(false)"></span>
+                    <span class="ion-ios-sunny" onclick="setDarkMode(true)"></span> -->
+                    <div style="margin: 0 0 30px 10px;">
+                        <input type="checkbox" class="checkbox" id="checkbox" />
+                        <label class="label" for="checkbox">
+                            <i class="ion-ios-moon"></i>
+                            <i class="ion-ios-sunny"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+        {{ with .Permalink }}<a href="/blog/" class="btn btn-dafault btn-details hvr-bounce-to-right"> Kembali </a>{{ end }}
+        <div id="disqus_thread"></div>
+        <!-- <script>
+
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://farghani.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
+    </div>
+</section>
+
+{{ partial "cta.html" . }}
+
+{{ end }}

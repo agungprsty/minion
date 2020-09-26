@@ -1,0 +1,105 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Harian Farghani"
+theme = "Personal"
+summaryLength = 40
+paginate = 3
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    mood = "moods"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.main]]
+name    = "About"
+url     = "about"
+weight  = 2
+[[menu.main]]
+# name    = "Service"
+# url     = "service"
+# weight  = 3
+[[menu.main]]
+name    = "Gallery"
+url     = "gallery"
+weight  = 4
+[[menu.main]]
+name    = "Blog"
+url     = "blog"
+weight  = 5
+[[menu.main]]
+name    = "Contact"
+url     = "contact"
+weight  = 6
+
+# Site Params
+[params]
+home = "Home"
+logo = "images/fixlogo.png"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Website Agung Prasetyo"
+author = "Agung Prasetyo"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# contact form action
+contactFormAction = "#" 
+
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/slider.jpg"
+heading = "HAI, SAYA AGUNG PRASETYO"
+description = "Ilmu adalah warisan terbaik, dan mengamalkannya adalah kemuliaan yang paling sempurna."
+# button
+btn     = true
+btnText = "Baca Yuk"
+btnURL  = "/blog"
+
+# flip text
+[[params.banner.flipText]]
+title   = "DEVELOPER"
+[[params.banner.flipText]]
+title   = "LEARNER"
+[[params.banner.flipText]]
+title   = "EDITOR"
+
+# Homepage About Section
+[params.about]
+enable  = true
+title   = "Tentang Saya"
+content = "Hello, Saya Agung Prasetyo, teman-teman bisa panggil saja Agung. Saat ini saya bekerja di PT. Forta Digital Teknologi sebagai Cleaning Service dari Lampung, Indonesia. Saya suka membaca dan bikin-bikin, walaupun hanya untuk experimen saja. <br> <br> Saya memulai karir saya sebagai Cleaning Service di PT. Forta Digital Teknologi. Dan berikut harapan saya untuk kedepannya, mulai menjadi Frontend Developer selama hampir 2 tahun. Sejak Agustus, saya pindah ke Yogyakarta dan mulai fokus pada Backend Developer. Saya suka Pengembang Backend karena ini memecahkan masalah manusia dan saya bersemangat untuk terlibat dengan mereka. Suatu hari saya ingin menjadi seorang guru dan memberikan pengaruh untuk kampung halaman saya."
+image   = "images/about/about.jpg"
+
+# Call to Action
+[params.cta]
+enable  = true
+title   = "JADI APA YANG KAMU PIKIRKAN ?"
+content = "Jika teman-teman ada pertanyaan <br>Boleh banget hubungi saya dibawah ini yaa "
+btnText = "Contact with me"
+btnURL  = "/contact"
+
+# Portfolio Section On Homepage
+[params.portfolio]
+enable  = true
+title   = "Harian Farghani Terbaru"
+subtitle= "Disini temen-temen bisa lihat galeri seputar pekerjaan, rekomendasi buku, atau juga experimen saya."
+
+# social icon
+[[params.socialIcon]]
+icon = "ion-social-facebook"
+url = "https://www.facebook.com/agungprasetyo06"
+
+[[params.socialIcon]]
+icon = "ion-social-instagram"
+url = "https://www.instagram.com/agung_prsty02"
+
+[[params.socialIcon]]
+icon = "ion-social-twitter"
+url = "https://twitter.com/AgungPrsty02"
+
+[[params.socialIcon]]
+icon = "ion-social-github"
+url = "https://github.com/agungprsty"
+
