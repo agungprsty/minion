@@ -1,5 +1,5 @@
 ---
-title: "KATA PENGANTAR"
+title: "Kata Pengantar"
 date: 2020-09-27T12:27:38+06:00
 description : "Kata Pengantar"
 type: post
