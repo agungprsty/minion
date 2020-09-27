@@ -9,10 +9,14 @@
                     <div class="portfolio-meta">
                         <span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>|
                         <span> Tags:
-                            {{ if ne .Params.tags nil }}{{ delimit .Params.tags ", " }}{{ end }}
+                            <a href="/tags/" > {{ if ne .Params.tags nil }}{{ delimit .Params.tags ", " }}</a>{{ end }}
+                            <!-- {{ if ne .Params.tags nil }}{{ delimit .Params.tags ", " }}{{ end }} -->
                         </span>| 
-                        &nbsp;<i class="ion-chatbubbles"></i>
-                        &nbsp;{{ with .Permalink }}<a href="{{ . | absURL }}#disqus_thread" style="color: #f2f2f2;"> post a comment </a>{{ end }}
+                        <span>
+                            <i class="ion-eye"></i>
+                            &nbsp;view:
+                            {{ if ne .Params.view nil }}{{ delimit .Params.view ", " }}{{ end }}
+                        </span>
                     </div>
                 </div>
             </div>

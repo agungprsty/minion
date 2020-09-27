@@ -7,7 +7,8 @@ image: images/blog/post-hugo.png
 author: Agung Prasetyo
 tags: ["Install","Programming"]
 moods: ["Senang"]
-enable  : false
+view: 
+- 2
 ---
 
 ## Instal template ini dengan mengikuti langkah-langkah sederhana berikut:

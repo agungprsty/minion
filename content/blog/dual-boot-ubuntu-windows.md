@@ -7,6 +7,8 @@ image: images/blog/post-3.png
 author: Mochamad Boval
 tags: ["Install","Programming"]
 moods: ["Senang"]
+view: 
+- 4
 ---
 
 Hai semuanya &#128075;, kali ini aku mau berbagi info bagaimana sih caranya `Dual Boot Ubuntu dan Windows 10`. Simak baik-baik yah. 

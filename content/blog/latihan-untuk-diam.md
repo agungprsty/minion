@@ -7,6 +7,8 @@ image: images/blog/post-1.jpg
 author: Hilman Ramadhan
 tags: ["Motivation"]
 moods: ["Senang", "Haru"]
+view: 
+- 3
 ---
 
 #### Latihan untuk diam
