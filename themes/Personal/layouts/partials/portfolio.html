@@ -12,6 +12,7 @@
                 {{ $delay := mul $index 300 }}
                 <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
                     <div class="img-wrapper">
+
                         <img src="{{ .Params.Image | relURL }}" class="img-fluid" alt="this is a title">
                         <div class="overlay">
                             <div class="buttons">
