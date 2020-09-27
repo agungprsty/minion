@@ -1340,13 +1340,13 @@ body.dark {
 }
 
 body.dark .work-single blockquote {
-  background: #2d364f;
+  background: #282a36;
   color: #fafafa;
   font-weight: bold;
 }
 
 body.dark .work-single-sidebar {
-  background: #2d364f;
+  background: #282a36;
 }
 
 #darkmode {

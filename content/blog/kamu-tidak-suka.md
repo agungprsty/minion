@@ -7,12 +7,16 @@ image: images/blog/post_proses.jpg
 author: Hilman Ramadhan
 tags: ["Motivation"]
 moods: ["Senang", "Haru"]
+view:
+- 2
 ---
 
 Beberapa kali saya merasa pusing dengan pekerjaan. Padahal pekerjaan saya saat ini, adalah cita cita saya sejak lama. Punya bisnis sendiri, bebas mengatur waktu. Tapi masih saja, muncul rasa pusing dan ingin meninggalkannya.
 
 Seperti biasa, saat sedang ada masalah seperti ini, yang perlu dilakukan:
+
 1. [jangan mengambil keputusan](https://hilman.space/emosi/) apa pun.
+   
 2. Ajak masalahnya duduk berasama, kita ngobrol bareng.
 
 Dengan berpikir lebih tenang, saya kadang menulis atau di kepala memikirkan apa sebenarnya yang saya tidak sukai dari pekerjaan ini. Ternyata betul, bukan **pekerjaanya**, tapi..
@@ -30,6 +34,7 @@ Rumput tetangga selalu lebih hijau. Saya membanding bandingkan “ko likes saya 
 Cukup simple, saya melakukan sebaliknya, dari apa yang tidak membuat saya senang.
 
 1. Saya mau menikmati proses. Bikin sesuatu lebih lambat. Posting sesuatu dengan jadwal beberapa hari kemudian.
+   
 2. Tidak lagi membandingkan dengan angka semata. Cukup ambil pelajaran apa yang bagus orang lain kerjakan, coba kita proses dan pikirkan apa yang bisa kita lakukan dengan kerjaan ini agar lebih baik
 
 Setiap pekerjaan kita ada yang **menikmati**. *Tapi jangan lupa, kamu sendiri kalau tidak bahagia, sulit untuk membawa kebahagiaan ini untuk orang lain.*
