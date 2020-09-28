@@ -14,10 +14,6 @@
                     <div class="contact-form">
                         <form id="contact-form" method="POST" action="{{ .Site.Params.contactFormAction }}" data-netlify="true" data-netlify-recaptcha="true" netlify-honeybot="bot-field" netlify>
 
-                            <!-- <p style="visibility:hidden">
-                                <label> Don't Fill This Out If You're Human:</label><input name="bot-field">
-                            </p> -->
-
                             <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".6s">
                                 <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
                             </div>
@@ -34,11 +30,14 @@
                                 <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
                             </div>
 
+                            <p style="visibility:hidden">
+                                <label> Don't Fill This Out If You're Human:</label><input name="bot-field">
+                            </p>
                             <div data-netlify-recaptcha></div>
                             <br>
 
                             <div id="success" class="success">
-                                Thank You! &nbsp;Tunggu ya pesan anda, sedang dalam perjalanan. &#128521;
+                                Thank You! &nbsp;Tunggu ya, pesan anda sedang dalam perjalanan. &#128521;
                             </div>
 
                             <div id="error" class="error">
