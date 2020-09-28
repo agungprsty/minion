@@ -63,15 +63,15 @@
         },
         messages: {
             user_name: {
-                required: "Come on, you have a name don't you?",
-                minlength: "Your name must consist of at least 2 characters"
+                required: "Cantumkan nama anda di sini!",
+                minlength: "Nama Anda harus terdiri dari minimal 2 karakter"
             },
             email: {
-                required: "Please put your email address",
+                required: "Harap cantumkan alamat email Anda",
             },
             message: {
-                required: "Put some messages here?",
-                minlength: "Your name must consist of at least 2 characters"
+                required: "Tinggalkan beberapa pesan di sini!",
+                minlength: "Pesan Anda harus terdiri dari minimal 10 karakter"
             },
         },
         submitHandler: function (form) {
