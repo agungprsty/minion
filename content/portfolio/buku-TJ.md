@@ -21,5 +21,5 @@ Tapak jejak akan melanjutkan perjalanan arah langkah, mengunjungi daerah-daerah 
 namun, satu hal yang tidak akan pernah berubah bahwa sejauh apapun kaki melangkah, hati kita akan selalu menemukan arah pulang menuju satu tempat yang paling tepat: rumah.
 
 ###### kutipan buku:
-> "tentang arti mengenang tidak semua hal pahit dari mengenang harus di lupakan, itu bisa menjadi pembelajaran"
+> "Tentang arti mengenang tidak semua hal pahit dari mengenang harus di lupakan, itu bisa menjadi pembelajaran"
 
