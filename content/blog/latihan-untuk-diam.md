@@ -8,7 +8,7 @@ author: Hilman Ramadhan
 tags: ["Motivation"]
 moods: ["Senang", "Haru"]
 view: 
-- 3
+- 13
 ---
 
 #### Latihan untuk diam

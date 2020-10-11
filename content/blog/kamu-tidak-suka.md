@@ -8,7 +8,7 @@ author: Hilman Ramadhan
 tags: ["Motivation"]
 moods: ["Senang", "Haru"]
 view:
-- 2
+- 18
 ---
 
 Beberapa kali saya merasa pusing dengan pekerjaan. Padahal pekerjaan saya saat ini, adalah cita cita saya sejak lama. Punya bisnis sendiri, bebas mengatur waktu. Tapi masih saja, muncul rasa pusing dan ingin meninggalkannya.

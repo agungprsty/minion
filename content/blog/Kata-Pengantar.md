@@ -8,7 +8,7 @@ author: Agung Prasetyo
 tags: ["Thanks"]
 moods: ["Senang", "Haru"]
 view: 
-- 6
+- 36
 ---
 
 ### Assalamu’alaikum warahmatullahi wabarakatuh

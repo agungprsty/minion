@@ -8,7 +8,7 @@ author: Agung Prasetyo
 tags: ["Programming"]
 moods: ["Senang"]
 view: 
-- 1
+- 26
 ---
 
 Anda baru saja mempelajari bahasa pemrograman pertama Anda. Atau mungkin Anda bosan menggunakan editor kode Anda saat ini. Anda ingin mengubah selera Anda dan mencari editor kode lain. Namun, ada masalah - Anda tidak punya waktu untuk mencari editor kode terbaik yang dapat mendukung proyek Anda saat ini. Atau mungkin Anda hanya ingin memilih dari daftar editor kode terbaik. Saya telah menyusun daftar `3 editor kode terbaik - baik open source dan premium`. Jadi, mari kita lihat:

@@ -8,7 +8,7 @@ author: Agung Prasetyo
 tags: ["Install","Programming"]
 moods: ["Senang"]
 view: 
-- 2
+- 22
 ---
 
 ## Instal template ini dengan mengikuti langkah-langkah sederhana berikut:
